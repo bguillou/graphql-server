@@ -1,0 +1,14 @@
+
+type Query {
+  user: User
+}
+
+
+type Mutation {
+  addUser(error: Boolean!): User
+}
+
+type User {
+  id: ID
+  email: String
+}

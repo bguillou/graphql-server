@@ -1,0 +1,15 @@
+{
+  "name": "graphapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3",
+    "raw-body": "^2.3.3"
+  }
+}
